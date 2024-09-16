@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    width: 80%;
+    margin: auto;
+    line-height: 1.6;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
