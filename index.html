@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="styles.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <i class="fas fa-home"></i>
-    <h1>Josh's Website</h1>
-    <button onclick="alert('Hello!')">Click Me</button>
     <nav class="navbar">
+        <div class="logo">
+            <a href="#"><i class="fas fa-home icon"></i></a>
+        </div>
         <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#resume">Resumé</a></li>
         </ul>
         <div class="social-icons">
@@ -23,19 +23,28 @@
             <a href="https://www.linkedin.com/in/josh-morfin-vazquez-801528251/"><i class="fab fa-linkedin"></i></a>
         </div>
     </nav>
+
     <section id="about">
         <h2>About Me</h2>
         <p>My name is Josh, I am currently a 4th year student at the University of Oregon. I am pursuing a BS in Computer Science. I enjoy spending time outdoors, working out, and enjoying moments with family and friends. This website showcases some of my work during my time at the University of Oregon.</p>
     </section>
+
     <section id="projects">
         <h2>Projects</h2>
         <p>Project 1: NLP Disaster tweets</p>
         <a href="https://github.com/joshmv23/NLP-Twitter-Model">Project 1</a>
-        <p>Description of this project is within the "README" file in the link</p>
+        <p>Description of this project is within the "README" file in the link.</p>
     </section>
+
+    <section id="resume">
+        <h2>Resumé</h2>
+        <p>You can add your resume details or link a PDF here.</p>
+    </section>
+
     <footer>
         <p>&copy; 2024 Josh's Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
 
