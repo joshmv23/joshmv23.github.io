@@ -1,10 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #f5f5f5; /* Cream/Off-white background color */
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #8A2BE2, #4B0082); /* Blue-violet gradient */
 }
 
 .hero-section::before {
@@ -21,13 +20,13 @@ body {
 h1, h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #ffffff;
+    color: #2c3e50; /* Darker color for better contrast */
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #b3b3b3;
+    color: #555; /* Slightly darker text color for better readability */
     line-height: 1.6;
 }
 
@@ -43,7 +42,7 @@ button {
 }
 
 footer {
-    background-color: #ffffff;
+    background-color: #2c3e50;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -65,7 +64,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #1c1c1c;
+    background-color: #2c3e50;
 }
 
 .nav-links {
@@ -87,7 +86,7 @@ footer {
 }
 
 .hero-section {
-    background-color: #4B0082; /* Blue-violet solid color */
+    background-color: #f5f5f5; /* Matches the body background for a unified look */
     padding: 100px 20px;
     text-align: center;
     margin: 0;
@@ -122,18 +121,19 @@ footer {
 section {
     padding: 100px 20px;
     margin: 0;
+    background-color: #f5f5f5; /* Ensure all sections have the same background */
 }
 
 section h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #2c3e50; /* Consistent dark color for headings */
     text-align: center;
 }
 
 section p {
     font-size: 18px;
-    color: #b3b3b3;
+    color: #555;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -153,7 +153,3 @@ section p {
         padding: 80px 10px;
     }
 }
-
-
-
-
